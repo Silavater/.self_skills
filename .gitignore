@@ -1,0 +1,4 @@
+# Ignore repository-local skills except the target Beacon workflow skill.
+.agents/skills/*
+!.agents/skills/beacon-dev-workflow/
+!.agents/skills/beacon-dev-workflow/**
