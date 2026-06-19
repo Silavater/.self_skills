@@ -63,6 +63,7 @@ Stop and ask or open an incident before continuing when:
 
 ## Reference Routing
 
+- Workflow structure, artifact authority, and closure rules: `references/workflow-structure.md`
 - Artifact responsibilities and templates: `references/beacon-artifacts.md`
 - SLICE contract, sizing, split/merge rules: `references/slice-contract.md`
 - Incident V1 and recovery gates: `references/recovery-protocol.md`

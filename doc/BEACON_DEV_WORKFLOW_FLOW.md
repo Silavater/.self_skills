@@ -213,15 +213,15 @@ The current Beacon skill already contains a textual flow:
 - `references/recovery-protocol.md` describes incident and recovery flow.
 - `references/verification.md` describes UnitTestCore and manual QA reporting.
 
-The skill package does not currently contain a Mermaid diagram that represents
-the whole development flow. The closest process representation is textual:
-`SKILL.md` describes the workflow as `Plan -> Design -> Slice -> Promote ->
-Execute -> Verify -> Recover -> Archive`.
+The skill package contains the agent-facing workflow structure reference at
+`skills/dev/beacon-dev-workflow/references/workflow-structure.md`.
+`SKILL.md` still keeps the compact textual workflow:
+`Plan -> Design -> Slice -> Promote -> Execute -> Verify -> Recover -> Archive`.
 
 ## Expected Internal Skill Guideline
 
-If Beacon needs an internal development-flow structure guideline later, add it
-as a reference file instead of expanding `SKILL.md`:
+The internal development-flow structure guideline should stay in a reference
+file instead of expanding `SKILL.md`:
 
 ```txt
 skills/dev/beacon-dev-workflow/
