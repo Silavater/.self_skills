@@ -1,4 +1,45 @@
-# Ignore repository-local skills except the target Beacon workflow skill.
-.agents/skills/*
-!.agents/skills/beacon-dev-workflow/
-!.agents/skills/beacon-dev-workflow/**
+# Local installed/synchronized skills and agent runtime state.
+.agents/
+skills-lock.json
+
+# Workspace-local planning and design artifacts.
+.beacon/
+.doc/
+.work/
+scratch/
+tmp/
+design/
+designs/
+planning/
+plans/
+
+# Planning/design documents created during skill development.
+**/DESIGN.md
+**/design.md
+**/*DESIGN*.md
+**/*design*.md
+**/PLAN.md
+**/plan.md
+**/*PLAN*.md
+**/*plan*.md
+**/TODO.md
+**/todo.md
+**/CURRENT.md
+**/current.md
+**/HANDOFF.md
+**/handoff.md
+**/BACKLOG.md
+**/backlog.md
+**/*DECISION*.md
+**/*decision*.md
+**/*ROADMAP*.md
+**/*roadmap*.md
+**/*SPEC*.md
+**/*spec*.md
+AGENTS.md
+AgentRule.md
+
+# Authored skill source and repo docs.
+!skills/
+!skills/**
+!README.md
