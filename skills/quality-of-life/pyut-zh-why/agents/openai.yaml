@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYUT ZH Why"
+  short_description: "Prefer Python for Chinese file reads."
+  default_prompt: "Use $pyut-zh-why when reading files that may contain Chinese text."
